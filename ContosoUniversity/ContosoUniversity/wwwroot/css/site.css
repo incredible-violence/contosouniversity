@@ -1,0 +1,94 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+h1,h2,h3,h4 {
+    font-family: 'IBM Plex Mono', monospace;
+}
+    
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.container {
+    background-color: #F99E1A;
+    color: #43484C;
+}
+
+.jumbotron {
+    background-color: #218FFE;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.row .col-md-4 p img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.navbar-nav li a:hover {
+    background-color: #218FFE;
+    border: .5px solid white;
+}
+
+a.btn {
+    background-color: #218FFE;
+    color: black;
+    border: 1px solid white;
+}
+
+    a.btn:hover {
+        background-color: #43484C;
+        color: #F99E1A;
+    }
